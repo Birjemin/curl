@@ -23,9 +23,9 @@ class Curl
     const CONTENT_TYPE_JSON = 'Content-Type: application/json';
 
     private $post;
-    private $retry  = 0;
-    private $custom = [];
-    private $option = [
+    private $retry          = 0;
+    private $custom         = [];
+    private $option         = [
         'CURLOPT_HEADER'         => 0,
         'CURLOPT_TIMEOUT'        => 30,
         'CURLOPT_ENCODING'       => '',
@@ -39,7 +39,7 @@ class Curl
     private $data;
     private $error;
     private $message;
-    private $method = self::METHOD_POST;
+    private $method         = self::METHOD_POST;
 
     private static $instance;
 
