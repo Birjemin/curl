@@ -1,5 +1,5 @@
 # 关于
-PHP-Curl是一个轻量级的网络操作类，实现GET、POST、PUT、DELETE常用操作，支持方法链写法。参考`https://github.com/wenpeng/curl`，取消了file文件的上传和下载，增加了put,delete方法，传输协议取消`form-data`。
+PHP-Curl是一个轻量级的网络操作类，实现GET、POST、PUT、DELETE常用操作，支持方法链写法。参考`https://github.com/wenpeng/curl`(✿✿ヽ(°▽°)ノ✿)，取消了file文件的上传和下载，增加了put,delete方法，传输协议取消`form-data`。
 
 # 需求
 有时候仅仅是使用http请求get,post,put请求而已，使用`guzzlephp` composer包太重，所以参考了这个包做了一下简化。
