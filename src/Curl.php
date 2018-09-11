@@ -22,7 +22,7 @@ class Curl
 
     const CONTENT_TYPE_JSON = 'Content-Type: application/json';
 
-    private $post;
+    private $post = [];
     private $retry          = 0;
     private $custom         = [];
     private $option         = [
